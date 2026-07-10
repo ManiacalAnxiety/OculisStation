@@ -333,7 +333,6 @@
 		"Human Resources Officer",
 		"Executive Officer",
 		"First Officer", // OCULIS EDIT ADDITION
-		// "Senior Sapient Resources Agent", // IRIS EDIT - new title
 		"Senior Sophont Resources Agent", // OCULIS EDIT
 	)
 
