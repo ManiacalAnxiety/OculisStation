@@ -1,8 +1,9 @@
+
 /obj/item/organ/ears/teshari
 	name = "teshari ears"
 	desc = "A set of four long rabbit-like ears, a Teshari's main tool while hunting. Naturally extremely sensitive to loud sounds."
 	damage_multiplier = 1.5
-	// actions_types = list(/datum/action/cooldown/spell/sensitive_hearing) // OCULIS EDIT REMOVAL
+	actions_types = list(/datum/action/cooldown/spell/sensitive_hearing)
 
 /datum/action/cooldown/spell/sensitive_hearing
 	name = "Toggle Sensitive Hearing"
