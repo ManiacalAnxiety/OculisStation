@@ -1,4 +1,3 @@
-
 /obj/item/organ/ears/teshari
 	name = "teshari ears"
 	desc = "A set of four long rabbit-like ears, a Teshari's main tool while hunting. Naturally extremely sensitive to loud sounds."
