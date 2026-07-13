@@ -333,7 +333,7 @@
 		"Human Resources Officer",
 		"Executive Officer",
 		"First Officer", // OCULIS EDIT ADDITION
-		"Senior Sophont Resources Agent", // OCULIS EDIT
+		"Senior Sophont Resources Agent", // OCULIS EDIT ADDITION
 	)
 
 /datum/job/head_of_security
