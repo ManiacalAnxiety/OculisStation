@@ -805,7 +805,7 @@
 "RD" = (
 /obj/machinery/door/airlock/external/ruin,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = syndicate_comms_base
+	cycle_id = syndie_comms_base
 	},
 /obj/structure/cable,
 /obj/structure/fans/tiny,
@@ -872,7 +872,7 @@
 "SI" = (
 /obj/machinery/door/airlock/external/ruin,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = syndicate_comms_base
+	cycle_id = syndie_comms_base
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
