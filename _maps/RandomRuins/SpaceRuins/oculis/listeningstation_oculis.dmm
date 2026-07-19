@@ -19,16 +19,16 @@
 "bC" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/structure/table/reinforced/titaniumglass,
-/obj/item/storage/medkit/robotic_repair{
-	pixel_y = 7;
-	pixel_x = -4
-	},
 /obj/item/storage/medkit/frontier/stocked{
 	pixel_y = 6;
 	pixel_x = 8
 	},
+/obj/item/storage/medkit/robotic_repair/stocked{
+	pixel_x = -7;
+	pixel_y = 7
+	},
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav/listeningstation)
+/area/space/nearstation)
 "bD" = (
 /obj/machinery/door/window/brigdoor/left/directional/east,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
