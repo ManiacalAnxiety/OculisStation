@@ -73,8 +73,8 @@
 	ears = /obj/item/radio/headset/interdyne/comms
 
 /datum/outfit/lavaland_syndicate/comms/space
-// OCULIS EDIT START
-	// ears = /obj/item/radio/headset/syndicate/alt
+	// ears = /obj/item/radio/headset/syndicate/alt // OCULIS EDIT REMOVAL
+	// OCULIS EDIT ADDITION START
 	ears = /obj/item/radio/headset/syndicate/alt/comms/space
 	head = /obj/item/clothing/head/hats/hos/beret/syndicate
 	uniform = /obj/item/clothing/under/syndicate/nova/overalls
@@ -84,7 +84,7 @@
 	r_hand = null
 	r_pocket = null
 	l_pocket = null
-// OCULIS EDIT END
+	// OCULIS EDIT ADDITION END
 
 /// Interdyne Planetary Base(s)
 
