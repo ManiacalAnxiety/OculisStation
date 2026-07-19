@@ -36,10 +36,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation)
-"bR" = (
-/turf/closed/wall,
-/area/ruin/space/has_grav/listeningstation,
-/area/ruin/space/has_grav/listeningstation)
 "bS" = (
 /obj/structure/table/wood{
 	name = "synthetic wooden table";
@@ -486,7 +482,6 @@
 /obj/machinery/door/airlock/centcom,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable,
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor,
@@ -648,7 +643,7 @@
 "Ic" = (
 /obj/structure/sign/nanotrasen/directional/east,
 /turf/open/space/basic,
-/area/template_noop)
+/area/space)
 "IO" = (
 /obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
@@ -825,7 +820,6 @@
 	},
 /obj/structure/cable,
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/structure/cable,
 /obj/item/storage/box/utensils{
 	pixel_y = 7;
 	pixel_x = -4
@@ -934,7 +928,7 @@
 	dwidth = 2
 	},
 /turf/open/space/basic,
-/area/ruin/space)
+/area/space)
 "VV" = (
 /obj/item/storage/photo_album/listeningstation,
 /obj/item/camera,
@@ -1048,7 +1042,6 @@
 /obj/machinery/light/warm/directional/south,
 /obj/structure/cable,
 /obj/machinery/hydroponics/constructable,
-/obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/listeningstation)
 "Zi" = (
@@ -1280,7 +1273,7 @@ mo
 ng
 Bz
 Ex
-bR
+Ex
 Ex
 Ex
 Ex
