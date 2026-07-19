@@ -642,8 +642,8 @@
 /area/ruin/space/has_grav/listeningstation)
 "Ic" = (
 /obj/structure/sign/nanotrasen/directional/east,
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/space/nearstation)
 "IO" = (
 /obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
@@ -927,8 +927,8 @@
 	dir = 8;
 	dwidth = 2
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/space/nearstation)
 "VV" = (
 /obj/item/storage/photo_album/listeningstation,
 /obj/item/camera,
@@ -1018,7 +1018,7 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/listeningstation)
 "Yd" = (
-/turf/open/space/basic,
+/turf/template_noop,
 /area/template_noop)
 "Yx" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
