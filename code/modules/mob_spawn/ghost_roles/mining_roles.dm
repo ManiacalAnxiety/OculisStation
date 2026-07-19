@@ -329,8 +329,8 @@
 	suit = /obj/item/clothing/suit/armor/vest
 	mask = /obj/item/clothing/mask/chameleon/gps
 	r_hand = /obj/item/melee/energy/sword/saber
-	belt = /obj/item/storage/belt/utility/full
 	glasses = /obj/item/clothing/glasses/welding/up
+	belt = /obj/item/storage/belt/utility/full
 
 /datum/outfit/lavaland_syndicate/comms/icemoon
 	name = "Icemoon Syndicate Comms Agent"
