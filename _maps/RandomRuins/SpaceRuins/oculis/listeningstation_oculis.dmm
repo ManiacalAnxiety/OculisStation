@@ -719,9 +719,7 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/machinery/light/warm/directional/south,
 /obj/structure/cable,
-/obj/machinery/holopad{
-	id_tag = EidolonCommunicationsBuoy
-	},
+/obj/machinery/holopad,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/listeningstation)
 "MG" = (
