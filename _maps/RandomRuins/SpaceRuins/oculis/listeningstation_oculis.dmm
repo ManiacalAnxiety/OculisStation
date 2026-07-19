@@ -18,7 +18,6 @@
 /area/ruin/space/has_grav/listeningstation)
 "bC" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
-/obj/structure/cable,
 /obj/structure/table/reinforced/titaniumglass,
 /obj/item/storage/medkit/robotic_repair{
 	pixel_y = 7;
@@ -74,7 +73,6 @@
 /area/ruin/space/has_grav/listeningstation)
 "cP" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
-/obj/structure/cable,
 /obj/structure/closet/crate/freezer,
 /obj/item/reagent_containers/blood/o_minus{
 	pixel_x = -3;
@@ -90,7 +88,6 @@
 /obj/machinery/light/small/directional/north{
 	nightshift_enabled = 1
 	},
-/obj/structure/cable,
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation)
@@ -138,8 +135,8 @@
 	dir = 4;
 	nightshift_enabled = 1
 	},
-/obj/structure/cable,
 /obj/machinery/iv_drip,
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/listeningstation)
 "gN" = (
@@ -167,7 +164,6 @@
 /area/ruin/space/has_grav/listeningstation)
 "hS" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
-/obj/structure/cable,
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/listeningstation)
@@ -225,17 +221,14 @@
 /area/ruin/space/has_grav/listeningstation)
 "lF" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
-/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "lO" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/window/right/directional/east{
-	dir = 1
-	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/machinery/door/window/brigdoor/left/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "mo" = (
@@ -295,15 +288,14 @@
 /turf/closed/wall,
 /area/ruin/space)
 "qs" = (
-/obj/machinery/door/window/left/directional/east,
 /obj/machinery/atmospherics/components/tank/air,
 /obj/structure/cable,
+/obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation)
 "qz" = (
 /obj/effect/turf_decal/tile/green/opposingcorners,
 /obj/machinery/light/warm/directional/south,
-/obj/structure/cable,
 /obj/structure/rack/shelf,
 /obj/item/cultivator,
 /obj/item/shovel/spade{
@@ -328,7 +320,6 @@
 "rf" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
-/obj/structure/cable,
 /obj/item/reagent_containers/condiment/flour,
 /obj/item/reagent_containers/condiment/flour,
 /obj/item/reagent_containers/condiment/sugar,
@@ -404,7 +395,6 @@
 /obj/machinery/light/warm/directional/south{
 	nightshift_enabled = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "ul" = (
@@ -433,6 +423,12 @@
 /obj/structure/cable,
 /obj/machinery/suit_storage_unit/radsuit,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/listeningstation)
+"vv" = (
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "wm" = (
 /obj/effect/turf_decal/tile/red/opposingcorners,
@@ -478,7 +474,6 @@
 	dir = 8;
 	nightshift_enabled = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/listeningstation)
 "xY" = (
@@ -497,11 +492,11 @@
 /turf/open/floor/catwalk_floor,
 /area/ruin/space/has_grav/listeningstation)
 "zc" = (
-/obj/machinery/door/window/right/directional/east,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/window/brigdoor/left/directional/east,
 /turf/open/floor/catwalk_floor,
 /area/ruin/space/has_grav/listeningstation)
 "zd" = (
@@ -518,10 +513,8 @@
 	nightshift_enabled = 1
 	},
 /obj/structure/cable,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/item/kirbyplants/random,
+/obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "zi" = (
@@ -701,13 +694,11 @@
 /turf/open/floor/catwalk_floor,
 /area/ruin/space/has_grav/listeningstation)
 "La" = (
-/obj/machinery/door/window/left/directional/east,
+/obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation)
 "Lb" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
+/obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "Lk" = (
@@ -730,7 +721,6 @@
 "Mp" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/machinery/light/warm/directional/south,
-/obj/structure/cable,
 /obj/machinery/holopad,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/listeningstation)
@@ -765,12 +755,12 @@
 /obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/structure/table/reinforced/titaniumglass,
 /obj/machinery/cell_charger,
-/obj/structure/cable,
 /obj/item/stock_parts/power_store/cell/high,
 /obj/item/stack/cable_coil{
 	pixel_x = 3;
 	pixel_y = 10
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/listeningstation)
 "PN" = (
@@ -852,10 +842,8 @@
 	nightshift_enabled = 1
 	},
 /obj/structure/cable,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/structure/closet/crate/secure/freezer/commsagent,
+/obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "RL" = (
@@ -946,7 +934,7 @@
 	dwidth = 2
 	},
 /turf/open/space/basic,
-/area/template_noop)
+/area/ruin/space)
 "VV" = (
 /obj/item/storage/photo_album/listeningstation,
 /obj/item/camera,
@@ -1426,7 +1414,7 @@ Zi
 Sp
 Qb
 MG
-JO
+aQ
 Ze
 ng
 mo
@@ -1448,7 +1436,7 @@ Ei
 Cp
 Ex
 SP
-as
+vv
 Qb
 UG
 JO
@@ -1473,7 +1461,7 @@ Ei
 Su
 Ex
 RH
-as
+vv
 RS
 Eh
 JO
@@ -1515,8 +1503,8 @@ mo
 ng
 cP
 kA
-kA
 Tw
+kA
 Qb
 ul
 Ei
@@ -1540,7 +1528,7 @@ mo
 ng
 ng
 mp
-kA
+Tw
 bC
 Ex
 Ex
@@ -1565,7 +1553,7 @@ mo
 mo
 ng
 HS
-kA
+Tw
 hS
 Ex
 dL
