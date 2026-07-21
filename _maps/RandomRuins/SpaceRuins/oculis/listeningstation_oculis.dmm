@@ -177,6 +177,14 @@
 /area/ruin/space/has_grav/listeningstation)
 "in" = (
 /obj/structure/sign/poster/contraband/random/directional/north,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stack/cable_coil{
+	pixel_x = 3;
+	pixel_y = 10
+	},
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "jd" = (
@@ -581,7 +589,7 @@
 "DU" = (
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/structure/cable,
-/obj/machinery/computer/camera_advanced{
+/obj/machinery/modular_computer/preset/cargochat{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
@@ -748,14 +756,8 @@
 /area/ruin/space/has_grav/listeningstation)
 "Pa" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
-/obj/structure/table/reinforced/titaniumglass,
-/obj/machinery/cell_charger,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stack/cable_coil{
-	pixel_x = 3;
-	pixel_y = 10
-	},
 /obj/structure/cable,
+/obj/machinery/vending/modularpc,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/listeningstation)
 "PN" = (
@@ -776,9 +778,11 @@
 /area/ruin/space/has_grav/listeningstation)
 "QK" = (
 /obj/effect/turf_decal/tile/red/opposingcorners,
-/obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/radio/intercom/directional/east{
 	freerange = 1
+	},
+/obj/machinery/computer/camera_advanced{
+	dir = 8
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
