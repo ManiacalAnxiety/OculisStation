@@ -199,6 +199,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
+/obj/structure/reagent_dispensers/watertank/high,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/listeningstation)
 "kp" = (
@@ -895,7 +896,7 @@
 	pixel_y = -6;
 	pixel_x = 5
 	},
-/obj/item/clothing/head/collectable/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_y = 12
 	},
 /turf/open/floor/plating,
