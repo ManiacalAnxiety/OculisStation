@@ -347,22 +347,8 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "rz" = (
-/obj/item/clothing/head/hats/hos/beret/syndicate,
-/obj/item/clothing/under/syndicate/combat,
-/obj/item/clothing/under/syndicate/bloodred/sleepytime,
-/obj/item/clothing/under/syndicate,
-/obj/item/clothing/under/syndicate/nova/maid,
-/obj/item/clothing/under/syndicate/nova/overalls,
-/obj/item/clothing/under/syndicate/nova/overalls/skirt,
-/obj/item/clothing/gloves/tactical_maid,
-/obj/item/clothing/under/misc/syndicate_souvenir,
-/obj/structure/closet/cabinet,
-/obj/item/clothing/suit/armor/vest/alt,
-/obj/item/clothing/suit/armor/vest,
-/obj/item/clothing/suit/jacket/tailcoat/syndicate,
-/obj/item/clothing/under/rank/engineering/engineer/nova/utility/syndicate,
-/obj/item/clothing/under/misc/nova/utility/syndicate,
-/turf/open/floor/carpet/red,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/brick,
 /area/ruin/space/has_grav/listeningstation)
 "rF" = (
 /obj/structure/cable,
@@ -472,6 +458,25 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/red,
 /area/ruin/space/has_grav/listeningstation)
+"xp" = (
+/obj/item/clothing/head/hats/hos/beret/syndicate,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/under/syndicate/bloodred/sleepytime,
+/obj/item/clothing/under/syndicate,
+/obj/item/clothing/under/syndicate/nova/maid,
+/obj/item/clothing/under/syndicate/nova/overalls,
+/obj/item/clothing/under/syndicate/nova/overalls/skirt,
+/obj/item/clothing/gloves/tactical_maid,
+/obj/item/clothing/under/misc/syndicate_souvenir,
+/obj/structure/closet/cabinet,
+/obj/item/clothing/suit/armor/vest/alt,
+/obj/item/clothing/suit/armor/vest,
+/obj/item/clothing/suit/jacket/tailcoat/syndicate,
+/obj/item/clothing/under/rank/engineering/engineer/nova/utility/syndicate,
+/obj/item/clothing/under/misc/nova/utility/syndicate,
+/obj/item/storage/box/nif_ghost_box/ghost_role,
+/turf/open/floor/carpet/red,
+/area/ruin/space/has_grav/listeningstation)
 "xv" = (
 /obj/effect/turf_decal/tile/green/opposingcorners,
 /obj/machinery/airalarm/directional/east,
@@ -566,10 +571,16 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/listeningstation)
 "zn" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/chair/office{
 	dir = 8
 	},
+/obj/structure/cable,
+/turf/open/floor/iron/brick,
+/area/ruin/space/has_grav/listeningstation)
+"AC" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/iron/brick,
 /area/ruin/space/has_grav/listeningstation)
 "Bz" = (
@@ -598,6 +609,26 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/white,
+/area/ruin/space/has_grav/listeningstation)
+"CP" = (
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_y = 9;
+	pixel_x = 7
+	},
+/obj/item/pen{
+	pixel_y = 9;
+	pixel_x = 7
+	},
+/obj/item/folder/blue{
+	pixel_y = 4;
+	pixel_x = -5
+	},
+/obj/item/folder/blue{
+	pixel_y = 8;
+	pixel_x = -5
+	},
+/turf/open/floor/iron/brick,
 /area/ruin/space/has_grav/listeningstation)
 "Dw" = (
 /obj/machinery/power/micro_reactor/bapgm,
@@ -646,11 +677,11 @@
 /area/ruin/space/has_grav/listeningstation)
 "GZ" = (
 /obj/structure/table,
-/obj/structure/cable,
 /obj/structure/desk_bell{
 	pixel_y = 15;
 	pixel_x = -8
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/brick,
 /area/ruin/space/has_grav/listeningstation)
 "HS" = (
@@ -699,6 +730,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/holopad,
 /turf/open/floor/iron/brick,
 /area/ruin/space/has_grav/listeningstation)
 "JF" = (
@@ -765,7 +797,6 @@
 /area/ruin/space/has_grav/listeningstation)
 "Mp" = (
 /obj/machinery/light/warm/directional/south,
-/obj/machinery/holopad,
 /obj/structure/cable,
 /turf/open/floor/iron/brick,
 /area/ruin/space/has_grav/listeningstation)
@@ -1010,25 +1041,8 @@
 	dir = 1
 	},
 /obj/structure/table,
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/item/folder/blue{
-	pixel_y = 8;
-	pixel_x = -5
-	},
-/obj/item/paper_bin{
-	pixel_y = 9;
-	pixel_x = 7
-	},
-/obj/item/pen{
-	pixel_y = 9;
-	pixel_x = 7
-	},
-/obj/item/folder/blue{
-	pixel_y = 4;
-	pixel_x = -5
-	},
 /obj/structure/sign/flag/terragov/directional/north,
 /turf/open/floor/iron/brick,
 /area/ruin/space/has_grav/listeningstation)
@@ -1144,12 +1158,12 @@ Ic
 UI
 Ic
 Yd
+Yd
 mo
 mo
 mo
 mo
-mo
-mo
+Yd
 Yd
 Yd
 Yd
@@ -1162,20 +1176,20 @@ Yd
 Yd
 Yd
 Yd
-mo
+Yd
 mo
 mo
 um
 RD
 ng
-ng
-ng
-ng
-ng
 mo
 mo
 mo
 mo
+mo
+mo
+mo
+Yd
 Yd
 Yd
 Yd
@@ -1194,14 +1208,14 @@ ng
 DI
 ng
 ng
-rz
-gl
 ng
 ng
+ng
 mo
 mo
 mo
 mo
+Yd
 Yd
 Yd
 Yd
@@ -1219,11 +1233,11 @@ ng
 SI
 ng
 ng
-sb
-Kp
-Nt
+xp
+gl
 ng
 ng
+mo
 mo
 mo
 mo
@@ -1243,6 +1257,31 @@ YF
 PN
 QN
 bW
+ng
+sb
+Kp
+Nt
+ng
+ng
+mo
+mo
+mo
+Yd
+Yd
+Yd
+Yd
+"}
+(6,1,1) = {"
+Yd
+mo
+mo
+mo
+mo
+ng
+Xm
+GZ
+fi
+Mp
 Ex
 bS
 Kp
@@ -1257,17 +1296,17 @@ Yd
 Yd
 Yd
 "}
-(6,1,1) = {"
-Yd
+(7,1,1) = {"
 mo
 mo
 mo
 mo
-ng
-Xm
-fi
-GZ
-Mp
+mo
+cq
+IW
+zn
+CP
+QN
 Ex
 oi
 uK
@@ -1282,15 +1321,15 @@ mo
 Yd
 Yd
 "}
-(7,1,1) = {"
-Yd
+(8,1,1) = {"
 mo
 mo
 mo
 mo
-cq
-IW
-zn
+mo
+ng
+AC
+rz
 cr
 lH
 Ex
@@ -1307,7 +1346,7 @@ mo
 Yd
 Yd
 "}
-(8,1,1) = {"
+(9,1,1) = {"
 mo
 mo
 mo
@@ -1332,7 +1371,7 @@ mo
 mo
 Yd
 "}
-(9,1,1) = {"
+(10,1,1) = {"
 mo
 mo
 mo
@@ -1357,7 +1396,7 @@ mo
 mo
 Yd
 "}
-(10,1,1) = {"
+(11,1,1) = {"
 mo
 mo
 ng
@@ -1382,7 +1421,7 @@ mo
 mo
 mo
 "}
-(11,1,1) = {"
+(12,1,1) = {"
 mo
 mo
 ng
@@ -1407,7 +1446,7 @@ mo
 mo
 mo
 "}
-(12,1,1) = {"
+(13,1,1) = {"
 mo
 mo
 xS
@@ -1432,7 +1471,7 @@ mo
 mo
 mo
 "}
-(13,1,1) = {"
+(14,1,1) = {"
 mo
 mo
 ng
@@ -1457,7 +1496,7 @@ mo
 mo
 mo
 "}
-(14,1,1) = {"
+(15,1,1) = {"
 mo
 mo
 ng
@@ -1482,7 +1521,7 @@ mo
 mo
 mo
 "}
-(15,1,1) = {"
+(16,1,1) = {"
 Yd
 mo
 mo
@@ -1507,7 +1546,7 @@ mo
 mo
 mo
 "}
-(16,1,1) = {"
+(17,1,1) = {"
 Yd
 mo
 mo
@@ -1532,7 +1571,7 @@ mo
 mo
 mo
 "}
-(17,1,1) = {"
+(18,1,1) = {"
 Yd
 mo
 mo
@@ -1557,7 +1596,7 @@ mo
 mo
 Yd
 "}
-(18,1,1) = {"
+(19,1,1) = {"
 Yd
 mo
 mo
@@ -1582,7 +1621,7 @@ mo
 mo
 Yd
 "}
-(19,1,1) = {"
+(20,1,1) = {"
 Yd
 mo
 mo
@@ -1607,7 +1646,7 @@ mo
 mo
 Yd
 "}
-(20,1,1) = {"
+(21,1,1) = {"
 Yd
 Yd
 mo
@@ -1632,7 +1671,7 @@ mo
 Yd
 Yd
 "}
-(21,1,1) = {"
+(22,1,1) = {"
 Yd
 Yd
 mo
@@ -1657,7 +1696,7 @@ mo
 Yd
 Yd
 "}
-(22,1,1) = {"
+(23,1,1) = {"
 Yd
 Yd
 mo
@@ -1682,7 +1721,7 @@ Yd
 Yd
 Yd
 "}
-(23,1,1) = {"
+(24,1,1) = {"
 Yd
 Yd
 Yd
@@ -1707,7 +1746,7 @@ Yd
 Yd
 Yd
 "}
-(24,1,1) = {"
+(25,1,1) = {"
 Yd
 Yd
 Yd
@@ -1732,7 +1771,7 @@ Yd
 Yd
 Yd
 "}
-(25,1,1) = {"
+(26,1,1) = {"
 Yd
 Yd
 Yd
