@@ -1,3 +1,0 @@
-/datum/loadout_item/toys/toystaff
-	name = "Wizard Staff"
-	item_path = /obj/item/staff
